@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>html forms</title>
+	<h1>Joseph web developer</h1>
+</head>
+<body style="background-color: powderblue">
+	<h2>simple contact form</h2>
+	<p>an html is used to collect user (informaton). the user input is mostly often send to the server for processing</p>
+	<h3>text fields</h3>
+	<p>A form with input fields for text.</p>
+	<form>
+		<label for="fname">first name*</label><br>
+		<input type="text" name="fname" id="fname" required="required"><br>
+		<label for="lname">last name*</label><br>
+		<input type="text" name="lname" id="lname" required="required"><br>
+
+		<label for="email">email*</label><br>
+		<input type="text" name="email" id="email" required="required"><br>
+
+		<label for="pwd">password*</label><br>
+		<input type="password" name="pwd" id="pwd" required="required">
+	</form>
+	
+	<h3>radio buttons</h3>
+	
+	<p>A radio button let a user to select one of a limited number of choices.</p>
+	<p>chooce your faborte web language</p>
+	<form>
+	<input type="radio" name="fav-language" id="html" value="html">
+	<label for="html">html</label><br>
+
+	<input type="radio" name="fav-language" id="css" value="css">
+	<label for="css">css</label><br>	
+
+	<input type="radio" name="fav-language" id="javascript" value="javascript">
+	<label for="javascript">javascript</label><br>	
+
+	<input type="radio" name="fav-language" id="php" value="php">
+	<label for="php">php</label>
+	</form>	
+	<h3>checkboxes</h3>
+	<p>A checkbox allows a user to select zero or more than one option of a limited number of choices.</p>
+	<h3>A form with checkboxes</h3>
+	<form>
+		<input type="checkbox" name="vehicle" id="vehicle" value="bike">
+	<label for="vehicle-1">bike</label><br>
+	<input type="checkbox" name="vehicle-2 id="vehicle-2 value="bicycle">
+	<label for="vehicle-2">bicycle</label><br>
+
+	<input type="checkbox" name="vehicle-3 id="vehicle-3 value="boat">
+	<label for="vehicle-3">boat</label><br>
+
+	<input type="checkbox" name="vehicle-3 id="vehicle-3 value="car">
+	<label for="vehicle-3">car</label>
+
+	</form>
+	<h3>select element</h3>
+	<p>The select element defines a drop-down list.</p>
+	<form>
+		<label for="cars">choose a car</label>
+		<select id="cars" name="cars">
+			<option value="volvo">volvo</option>
+			<option value="fiat">fiat</option>
+			<option value="jeep">jeep</option>
+			<option value="Dodge">Dodge</option>
+			<option value="Bmw">Bmw</option>
+			<option value="Toyota">Toyota</option>
+			<option value="Audi">Audi</option>
+			
+		</select>
+	</form>
+	<h3>textarea element</h3>
+	<p>It defines a multi-line input field (a text area)</p>
+	<form>
+		<textarea name="message" rows="10" cols="30">
+			the cat is playing in the garden.
+		</textarea>
+
+	</form>
+		<h3>the input type "password"</h3>
+		<form>
+			<label for="username">username</label><br>
+			<input type="text" name="username" id="username"><br>
+
+			<label for="pwd">password</label><br>
+			<input type="password" name="pwd" id="pwd"><br>
+		</form>
+		<h3>the input type "submit"</h3>
+		<p>the input type submit defines the button for submiting form data to a form-handler</p>
+		<form>
+		<label for="fname">first name*</label><br>
+		<input type="text" name="fname" id="fname" required="required"><br>
+
+		<label for="lname">last name*</label><br>
+		<input type="text" name="lname" id="lname" required="required"><br>
+		
+		<label for="email">email*</label><br>
+		<input type="text" name="email" id="lname" required="required"><br>
+
+		<label for telefone>telefone*</label><br>
+		<input type="text" name="phone" id="phone" required="required"><br>
+
+		<textarea name="message" rows="10" cols="30"></textarea><br>
+			<input type="button" value="submit">
+			<button>send</button>
+		</form>
+
+
+	
+</body>
+</html>
